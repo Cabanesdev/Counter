@@ -1,12 +1,12 @@
 let count = 0;
 const value = document.querySelector('#value');
-const btns = document.querySelectorAll('.btn');
+const buttons = document.querySelectorAll('.btn');
 
-btns.forEach(function (btn) {
-	app(btn);
+buttons.forEach(function (btn) {
+	registerEventListener(btn);
 });
 
-function app(btn) {
+function registerEventListener(btn) {
 	btn.addEventListener('click', function (e) {
 		const styles = e.currentTarget.classList;
 		if (styles.contains('increase')) {
