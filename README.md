@@ -1,2 +1,2 @@
 # Counter
-This is my first little proyect with js
+This is my first little project with js
